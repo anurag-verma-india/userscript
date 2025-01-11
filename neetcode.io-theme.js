@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         New Userscript
 // @namespace    http://tampermonkey.net/
-// @version      2025-01-11
+// @version      2025-01-11-2.0
 // @description  try to take over the world!
 // @author       You
 // @match        https://neetcode.io/*
