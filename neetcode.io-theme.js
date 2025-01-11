@@ -9,6 +9,8 @@
 // @grant        none
 // ==/UserScript==
 
+// This is a comment
+
 (function () {
     "use strict";
     // Your code here...
