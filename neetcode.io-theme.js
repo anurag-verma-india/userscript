@@ -5,11 +5,11 @@
 // @description  try to take over the world!
 // @author       You
 // @match        https://neetcode.io/*
+// @updateURL    https://raw.githubusercontent.com/anurag-verma-india/userscript/refs/heads/main/neetcode.io-theme.js
+// @downloadURL  https://raw.githubusercontent.com/anurag-verma-india/userscript/refs/heads/main/neetcode.io-theme.js
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=neetcode.io
 // @grant        none
 // ==/UserScript==
-
-// This is a comment
 
 (function () {
     "use strict";
@@ -29,7 +29,8 @@
         // htmlElement.className = "dark-theme";
         localStorage.setItem("saved-theme-preference", "DARK");
     } else {
-        htmlElement.className = "light-theme";
+        // htmlElement.className = "light-theme";
         localStorage.setItem("saved-theme-preference", "LIGHT");
     }
+    console.log(`Changed theme to ${isDarkTheme ? "DARK" : "LIGHT"}`);
 })();
