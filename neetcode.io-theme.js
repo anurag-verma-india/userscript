@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         New Userscript
 // @namespace    http://tampermonkey.net/
-// @version      2025-01-11-2.0
+// @version      2025-01-12-v1.1
 // @description  try to take over the world!
 // @author       You
 // @match        https://neetcode.io/*
@@ -32,5 +32,4 @@
         // htmlElement.className = "light-theme";
         localStorage.setItem("saved-theme-preference", "LIGHT");
     }
-    console.log(`Changed theme to ${isDarkTheme ? "DARK" : "LIGHT"}`);
 })();
